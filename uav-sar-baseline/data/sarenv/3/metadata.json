@@ -1,0 +1,16 @@
+{
+  "environment_type": "flat",
+  "climate": "temperate",
+  "center_point": [
+    12.5036994,
+    51.1341115
+  ],
+  "meter_per_bin": 30,
+  "radius_km": 9.9,
+  "bounds": [
+    315452.73963460955,
+    5657801.91249947,
+    335252.73963460966,
+    5677601.91249947
+  ]
+}

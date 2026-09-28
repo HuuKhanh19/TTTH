@@ -1,0 +1,16 @@
+{
+  "environment_type": "mountainous",
+  "climate": "dry",
+  "center_point": [
+    8.900381,
+    39.053632
+  ],
+  "meter_per_bin": 30,
+  "radius_km": 19.3,
+  "bounds": [
+    472080.33117125544,
+    4303432.932549567,
+    510680.3311712553,
+    4342032.932549567
+  ]
+}

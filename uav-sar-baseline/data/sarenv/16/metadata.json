@@ -1,0 +1,16 @@
+{
+  "environment_type": "mountainous",
+  "climate": "temperate",
+  "center_point": [
+    9.838304,
+    46.826512
+  ],
+  "meter_per_bin": 30,
+  "radius_km": 18.3,
+  "bounds": [
+    545638.404645611,
+    5167926.444009547,
+    582238.4046456111,
+    5204526.444009545
+  ]
+}

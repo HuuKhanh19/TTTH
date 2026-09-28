@@ -1,0 +1,20 @@
+{
+  "dataset": "SAREnv",
+  "map_id": 33,
+  "revision": "0f2d344d17c0b9c18cec2176dd9b171beba727d6",
+  "paper_doi": "10.3390/drones9090628",
+  "heatmap_url": "https://raw.githubusercontent.com/namurproject/SAREnv/0f2d344d17c0b9c18cec2176dd9b171beba727d6/sarenv_dataset/33/heatmap.npy",
+  "heatmap_git_blob_sha1": "f1f3799b7dafdd5eea1e692412f47c8e9d27cdde",
+  "heatmap_sha256": "483c844391dae7953531f5e0af15133718aa780e8a10ecefcd53cd2292a59d05",
+  "heatmap_bytes": 6097160,
+  "geojson_url": "https://media.githubusercontent.com/media/namurproject/SAREnv/0f2d344d17c0b9c18cec2176dd9b171beba727d6/sarenv_dataset/33/features.geojson",
+  "geojson_lfs_sha256": "af61e9a879b062e21f34984201935b43bc8a7c6671a0ec3b5146c3755c42a441",
+  "geojson_full_bytes": 1834668,
+  "metadata_range": [
+    1830572,
+    1834667
+  ],
+  "metadata_suffix_sha256": "2ca8bbb5bbe103a5dcf4fa3519e324a2759e95a4f3b3e992842e61d548a23879",
+  "metadata_sha256": "436662cd44095db82a60e08ce3a5ad79aab564de6aec50fd9e0e42e21d449be7",
+  "note": "Heatmap is byte-identical upstream data. Metadata extracted from LFS suffix; full geometry not downloaded."
+}

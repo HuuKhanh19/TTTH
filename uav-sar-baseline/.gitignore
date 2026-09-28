@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+vendor/
+*.part
+.DS_Store
+# Original heatmaps are fetched reproducibly by sar_baseline.download.
+data/sarenv/*/heatmap.npy
+data/sarenv/*/features.metadata-suffix.bin
+data/*.log
+# Retain final tables/figures; regenerate detailed trajectories as needed.
+results/**/routes/
+results/pilot/
+results/*-run.log
