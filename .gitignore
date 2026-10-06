@@ -1,5 +1,4 @@
 .DS_Store
-# Local course reference material; not part of the baseline implementation.
-Slide/
-# Generated sharing archive; source and reports are versioned directly.
-/uav-sar-baseline-source.zip
+__pycache__/
+*.py[cod]
+.venv/

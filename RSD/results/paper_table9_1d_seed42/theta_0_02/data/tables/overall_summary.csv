@@ -1,0 +1,6 @@
+Metric,Proposed,Best Baseline,Improvement (%)
+coverage,2.0,alawad (100.00),-98.0
+mission_time,100.0,alawad (42.00),-138.0952380952381
+energy,10.722982178296661,adam (13.69),21.687242798498442
+path_length,106.04910833382846,adam (148.11),28.396164766499414
+connectivity,1.0,adam (1.00),0.0

@@ -1,0 +1,18 @@
+Running proposed...
+Running adam...
+Running javed...
+Running alawad...
+/Users/huukhanh/Documents/TTTH/RSD/visualization/plot_coverage.py:59: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/huukhanh/Documents/TTTH/RSD/visualization/plot_energy.py:56: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/huukhanh/Documents/TTTH/RSD/visualization/plot_path_length.py:58: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/huukhanh/Documents/TTTH/RSD/visualization/plot_connectivity.py:56: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/huukhanh/Documents/TTTH/RSD/visualization/plot_radar.py:91: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/huukhanh/Documents/TTTH/RSD/visualization/plot_improvement.py:44: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+All simulations completed successfully.

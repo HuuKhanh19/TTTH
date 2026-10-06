@@ -1,0 +1,80 @@
+## Supplementary Material Description
+
+### Supplementary Information Overview
+
+The Supplementary Material accompanying this manuscript provides a complete reproducibility package for the proposed **risk-sensitive mean-field control framework for UAV swarm coordination under stochastic disaster environments**. The material is designed to ensure full transparency, reproducibility, and independent verification of all theoretical and experimental results presented in the paper.
+
+---
+
+### 1. Code Availability and Structure
+
+The supplementary package includes a fully modular and documented Python implementation of the proposed framework. The codebase is organized into clearly defined components corresponding to the mathematical structure of the manuscript, including:
+
+* **System Dynamics**: Implementation of disaster propagation, UAV motion, and measurement models.
+* **Control Module**: Risk-sensitive cost formulation, Riccati recursion, and optimal feedback controller.
+* **Mean-Field Module**: Covariance evolution and distribution-level approximation for large-scale UAV systems.
+* **Distributed Coordination**: Communication graph construction and consensus-based information exchange.
+* **Baseline Methods**: Implementations of comparative approaches, including heuristic, clustering-based, and swarm-based strategies.
+* **Simulation Engine**: Unified pipeline executing all methods under identical conditions.
+* **Evaluation and Visualization**: Automated computation of performance metrics and generation of all figures and tables.
+
+Each major function in the code explicitly references the corresponding equation in the manuscript, ensuring direct traceability between theoretical formulation and implementation.
+
+---
+
+### 2. Reproducibility of Results
+
+All numerical results reported in the manuscript are generated programmatically through the provided simulation pipeline. The supplementary material includes:
+
+* **Raw simulation data** capturing time-step evolution of UAV states, control inputs, and energy levels.
+* **Processed datasets** used to compute performance metrics.
+* **Automated scripts** for generating all figures and tables presented in the manuscript.
+
+Running the main execution script reproduces:
+
+* All performance plots (coverage, energy, connectivity, robustness, etc.)
+* The overall statistical performance summary table
+* Comparative visualizations (radar and improvement plots)
+
+No manual intervention or post-processing is required.
+
+---
+
+### 3. Baseline Implementation and Fair Comparison
+
+All baseline methods are implemented within the same simulation environment and evaluated using identical initial conditions, noise models, and system parameters. This ensures a fair and consistent comparison between the proposed approach and existing methods.
+
+---
+
+### 4. Parameter Configuration
+
+The supplementary package includes configurable parameters governing:
+
+* Number of UAVs and simulation horizon
+* Noise levels and stochastic disturbances
+* Risk sensitivity parameter
+* Communication radius and consensus parameters
+
+This allows readers to replicate the reported results or explore additional scenarios.
+
+---
+
+### 5. Computational Considerations
+
+The implementation is designed for clarity and reproducibility rather than hardware-specific optimization. All simulations can be executed on a standard desktop environment using widely available Python libraries.
+
+---
+
+### 6. Purpose and Contribution
+
+The supplementary material serves to:
+
+* Provide full transparency of the proposed methodology
+* Enable independent verification of all theoretical and empirical results
+* Facilitate reuse and extension of the framework by the research community
+
+---
+
+### Summary
+
+Together, the manuscript and the accompanying supplementary material present a **complete, reproducible, and extensible framework** for risk-sensitive, distributed UAV swarm control in stochastic environments, bridging theoretical development and practical implementation.

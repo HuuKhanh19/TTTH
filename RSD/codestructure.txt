@@ -1,0 +1,45 @@
+dynamics/        → System models (Eq. 1–5)
+control/         → Cost + Riccati + Controller (Eq. 6–21)
+mean_field/      → Mean-field approximation (Eq. 22–29)
+distributed/     → Graph + Consensus (Eq. 34)
+baselines/       → Comparative methods
+simulation/      → Full simulation engine
+evaluation/      → Metrics + Table generation
+visualization/   → All plots
+
+**********************************************************
+
+Parameter Modification
+
+config/parameters.py
+
+**********************************************************
+
+All plots are generated from time-resolved simulation logs. Energy and throughput measurements are not used directly in isolation; instead, they are derived from the underlying state evolution of the UAV system. From these logs, secondary metrics such as coverage, path length, connectivity, and robustness are computed using well-defined transformations, ensuring that each figure is a deterministic function of the recorded system trajectories.
+
+State Evolution (x_k, D_k)
+        ↓
+Control (u_k)
+        ↓
+Energy + Movement + Positions
+        ↓
+Derived Metrics
+        ↓
+Plots
+**********************************************************
+
+Mapping
+
+Plots come from system evolution, not from single measurements.
+
+Coverage: UAV positions → visited grid cells → % coverage
+Energy Derived From: E_k = E_0 − Σ (α||u||² + β)
+Path Lenght Derived From: ||x_{k+1} − x_k||
+Connectivity: positions → adjacency → graph connectivity
+Robustness: performance vs noise (σ variation)
+Radar/Summary: aggregated metrics (coverage, energy, etc.)
+
+
+
+
+
